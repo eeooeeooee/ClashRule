@@ -1,0 +1,34 @@
+name: Update Global List
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # 每天凌晨4点运行
+  workflow_dispatch:
+
+jobs:
+  update-global-list:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Fetch Global.list
+      run: |
+        curl -o Global.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list
+
+    - name: Remove specific DOMAIN-SUFFIX entries
+      run: |
+        sed -i '/DOMAIN-SUFFIX,easports.com/d' Global.list
+        sed -i '/DOMAIN-SUFFIX,tnt-ea.com/d' Global.list
+        sed -i '/DOMAIN-SUFFIX,ea.com/d' Global.list
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add Global.list
+        git commit -m 'Remove DOMAIN-SUFFIX entries for easports.com, tnt-ea.com, and ea.com'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
