@@ -1,6 +1,6 @@
 name: Update Global List
 
-on:
+on: 
   schedule:
     - cron: '0 4 * * *' # 每天凌晨4点运行
   workflow_dispatch:
@@ -8,7 +8,6 @@ on:
 jobs:
   update-global-list:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -17,18 +16,20 @@ jobs:
       run: |
         curl -o Global.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list
 
-    - name: Remove specific DOMAIN-SUFFIX entries
+    - name: Fetch EA.list for duplicates
       run: |
-        sed -i '/DOMAIN-SUFFIX,easports.com/d' Global.list
-        sed -i '/DOMAIN-SUFFIX,tnt-ea.com/d' Global.list
-        sed -i '/DOMAIN-SUFFIX,ea.com/d' Global.list
+        curl -o EA.list https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EA/EA.list
+
+    - name: Remove duplicate entries from Global.list
+      run: |
+        grep -vxFf EA.list Global.list > TempGlobal.list && mv TempGlobal.list Global.list
 
     - name: Commit changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add Global.list
-        git commit -m 'Remove DOMAIN-SUFFIX entries for easports.com, tnt-ea.com, and ea.com'
+        git commit -m 'Remove duplicate entries based on EA.list'
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
