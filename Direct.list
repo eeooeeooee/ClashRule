@@ -1,5 +1,7 @@
 # 域名
 DOMAIN-KEYWORD,aktv.top
+# 游戏
+PROCESS-NAME,FC25.exe
 
 # 以下来自https://github.com/dler-io/Rules/blob/main/Clash/Provider/Special.yaml
 # > Apple CDN
