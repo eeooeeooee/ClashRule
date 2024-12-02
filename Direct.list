@@ -1,6 +1,6 @@
 # 域名
 DOMAIN-KEYWORD,aktv.top
-DOMAIN-KEYWORD,speedtest.net
+DOMAIN,speedtest.net
 # 游戏
 PROCESS-NAME,FC25.exe
 
