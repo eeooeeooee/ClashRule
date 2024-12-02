@@ -43,4 +43,4 @@ DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
 # 网络测速
-DOMAIN-SUFFIX,speedtest.net
+DOMAIN-KEYWORD,speedtest.net
