@@ -1,6 +1,6 @@
 # 域名
 DOMAIN-KEYWORD,aktv.top
-DOMAIN,speedtest.net
+
 # 游戏
 PROCESS-NAME,FC25.exe
 
@@ -42,3 +42,9 @@ DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
+
+# > Speedtest by Ookla
+# - USER-AGENT,SpeedTest*
+DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN,speed.dler.io
