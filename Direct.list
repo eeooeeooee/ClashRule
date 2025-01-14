@@ -48,3 +48,6 @@ DOMAIN-SUFFIX,blizzard.com
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN,speed.dler.io
+
+# Primerbank
+DDOMAIN,harvard.edu
