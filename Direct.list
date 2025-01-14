@@ -50,4 +50,4 @@ DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN,speed.dler.io
 
 # Primerbank
-DDOMAIN,harvard.edu
+DOMAIN-KEYWORD,harvard.edu
