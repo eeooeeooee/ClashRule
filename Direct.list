@@ -56,3 +56,4 @@ DOMAIN-KEYWORD,ratatoskr.org
 DOMAIN-KEYWORD,mgh.harvard.edu
 
 DOMAIN-KEYWORD,tailscale
+PROCESS-NAME,tailscaled
