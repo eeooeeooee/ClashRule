@@ -1,12 +1,12 @@
 # NAME: Global
-# UPDATED: 2025-04-06 02:12:19
+# UPDATED: 2025-04-09 02:12:32
 # DOMAIN: 87
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31170
+# DOMAIN-SUFFIX: 31174
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 31410
+# TOTAL: 31414
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
 DOMAIN,anime-rule34-world.b-cdn.net
@@ -19851,6 +19851,10 @@ DOMAIN-SUFFIX,sigmoidoscopeexam.com
 DOMAIN-SUFFIX,sign.ac.uk
 DOMAIN-SUFFIX,sign.new
 DOMAIN-SUFFIX,signal.art
+DOMAIN-SUFFIX,signal.group
+DOMAIN-SUFFIX,signal.link
+DOMAIN-SUFFIX,signal.me
+DOMAIN-SUFFIX,signal.tube
 DOMAIN-SUFFIX,signalbar.com
 DOMAIN-SUFFIX,signalprocessingsociety.org
 DOMAIN-SUFFIX,signalr.net
