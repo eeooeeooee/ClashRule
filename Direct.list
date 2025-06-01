@@ -58,3 +58,4 @@ DOMAIN-KEYWORD,mgh.harvard.edu
 DOMAIN-KEYWORD,tailscale
 PROCESS-NAME,tailscaled
 DOMAIN-KEYWORD,zerotier
+PROCESS-NAME,zerotier-one
