@@ -1,12 +1,12 @@
 # NAME: Global
-# UPDATED: 2025-06-24 02:07:33
+# UPDATED: 2025-06-28 02:07:29
 # DOMAIN: 91
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31557
+# DOMAIN-SUFFIX: 31558
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 31801
+# TOTAL: 31802
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -29441,6 +29441,7 @@ DOMAIN-SUFFIX,radioline.co
 DOMAIN-SUFFIX,radiotime.com
 DOMAIN-SUFFIX,radiovaticana.org
 DOMAIN-SUFFIX,radiovncr.com
+DOMAIN-SUFFIX,radmin-vpn.com
 DOMAIN-SUFFIX,rael.org
 DOMAIN-SUFFIX,raggedbanner.com
 DOMAIN-SUFFIX,raidcall.com.tw
