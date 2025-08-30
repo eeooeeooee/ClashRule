@@ -1,12 +1,12 @@
 # NAME: Global
-# UPDATED: 2025-08-28 02:08:07
+# UPDATED: 2025-08-30 02:07:39
 # DOMAIN: 110
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31831
+# DOMAIN-SUFFIX: 31834
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 32094
+# TOTAL: 32097
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -1485,6 +1485,7 @@ DOMAIN-SUFFIX,amazonaws.org
 DOMAIN-SUFFIX,amazonaws.tv
 DOMAIN-SUFFIX,amazonbusiness.org
 DOMAIN-SUFFIX,amazonbusinessblog.com
+DOMAIN-SUFFIX,amazoncognito.com
 DOMAIN-SUFFIX,amazondevicesupport.com
 DOMAIN-SUFFIX,amazonfctours.com
 DOMAIN-SUFFIX,amazonianblog.com
@@ -2584,6 +2585,8 @@ DOMAIN-SUFFIX,awjq.cc
 DOMAIN-SUFFIX,awlc.ac.uk
 DOMAIN-SUFFIX,aws-iot-hackathon.com
 DOMAIN-SUFFIX,aws.com
+DOMAIN-SUFFIX,awsapprunner.com
+DOMAIN-SUFFIX,awsapps.com
 DOMAIN-SUFFIX,awsautopilot.com
 DOMAIN-SUFFIX,awsautoscaling.com
 DOMAIN-SUFFIX,awsbraket.com
