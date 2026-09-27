@@ -57,3 +57,7 @@ DOMAIN-KEYWORD,mgh.harvard.edu
 
 DOMAIN-KEYWORD,tailscale
 PROCESS-NAME,tailscaled
+
+# 馒头
+DOMAIN-KEYWORD,m-team,DIRECT
+
